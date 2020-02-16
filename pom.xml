@@ -34,6 +34,13 @@
 		</dependency>
 
 	</dependencies>
+	<distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>V1NAY-K1N9-W0R1D-snapshots</name>
+        <url>http://localhost:8082/artifactory/libs-snapshot</url>
+    </snapshotRepository>
+</distributionManagement>
 	<build>
 		<finalName>SampleWebApplication</finalName>
 		<plugins>
